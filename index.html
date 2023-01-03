@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your logo Resturant</title>
+
+           <!--  Bootstrap CDN file CSS  -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+
+            <!--  Font awesome CDN file  -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+            <!--  Theme css file  -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+ </head>
+ <body>
+
+  <!-- preloader load section -->
+     <div class="preloader">
+		<img src="image/load.gif" alt="">
+	 </div>
+  <!-- preloader load section -->
+
+	<a href="#" class="scrolltop">
+		<i class="fa-solid fa-arrow-up"></i>
+	</a>
+   
+
+ <!--  Header section start  -->	
+  <header>
+ 	<div class="container">
+ 	  <div class="row">
+ 	  	<div class="col-lg-12">
+           <nav class="navbar navbar-expand-lg ">
+			  <div class="container-fluid">
+			    <a class="navbar-brand" href="#"></a>
+
+                        <!--  Responsive Manubar for Mobile & tablet  -->
+			    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			      <span class="navbar-toggler-icon"></span>
+			    </button>
+
+			    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+			        <li class="nav-item">
+			          <a class="nav-link active" aria-current="page" href="#">Home</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" href="#">Manu</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" href="#">Our Story</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" href="#">Contact Us</a>
+			        </li>
+			      </ul>
+			      <form class="d-flex boxs" role="search">
+			        <input class="form-control me-2" type="search" aria-label="Search">
+			         <i class="fa-solid fa-magnifying-glass" onclick="searchBar()"></i>
+			      </form>
+			    </div>
+			  </div>
+			</nav>
+ 	  	</div>
+ 	  </div>
+ 	</div>
+
+    <section class="separate-section">
+      <div class="container">
+      	<div class="row">
+ 	   	 	<div class="col-lg-6">
+         <img src="image/leaf.png" alt="image" class="leaf">
+ 	   	 	  <div class="menu-introduce">
+ 	   	 	  	<img src="image/logos.png" alt="logo" class="logos">
+ 	   	 	  	<h1>Italian Food</h1>
+ 	   	 	  	<h3><em>LOREMIPSUM DOLOR</em></h3>
+ 	   	 	  	<a href="" class="btn-menu">read more</a>
+ 	   	 	  	<p><em>Lorem ipsum dolor sit amet, consectetur adipi-scing elit, sed do iusmod tempor incididunt ut labore et dolore magna.</em></p>
+ 	   	 	  </div>
+ 	   	 	</div>
+ 	   	 	
+ 	   	 	<div class="col-lg-6">
+ 	   	 	  <div class="images-menu">
+ 	   	 	  	<img src="image/noodles-1.png" alt="image" class="noodles">
+ 	   	 	  </div>
+ 	   	 	</div>
+ 	     </div>
+       </div>
+     </section>
+
+  </header>
+
+  <div id="form-section">
+		<input type="text" name="name" placeholder="Search here......." required="required" class="input1">
+		<i class="fa-solid fa-magnifying-glass"></i>
+		<i class="fa-solid fa-xmark" onClick="closehBar()"></i>
+  </div>
+  <!--  Header section end  -->
+
+  <!--  Item section start  -->	
+  <section class="item-section">
+ 	<div class="container">
+ 	  <div class="row">
+ 	  	<div class="col-lg-12">
+ 	  	  <h1>Lorem Ipsum  Dolor</h1>
+ 	  	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
+
+ 	  	  <div class="row">
+ 	  	   <div class="col-lg-4">
+ 	  	   	<div class="item-menu-1">
+ 	  	   	 <img src="image/speghetti.png" alt="images">
+ 	  	   	 <div class="manu-detail-1">
+ 	  	   	 <h3>Lorem ipsum</h3>
+ 	  	   	 <p>Lorem ipsum dolor sit amet, consectetur  adipisicing...</p>
+ 	  	   	 </div>
+ 	  	   	 </div>
+ 	  	   </div>
+
+ 	  	   <div class="col-lg-4">
+ 	  	   	<div class="item-menu-2">
+ 	  	   	 <img src="image/speghetti-2.png" alt="images" class="single-img">
+ 	  	   	 <div class="manu-detail-2">
+ 	  	   	 <h3>Lorem ipsum</h3>
+ 	  	   	 <p>Lorem ipsum dolor sit amet, consectetur  adipisicing...</p>
+ 	  	   	 </div>
+ 	  	   	 </div>
+ 	  	   </div>
+
+ 	  	   <div class="col-lg-4">
+ 	  	   	<div class="item-menu-3">
+ 	  	   	 <img src="image/speghetti-3.png" alt="images">
+ 	  	   	 <div class="manu-detail-3">
+ 	  	   	 <h3>Lorem ipsum</h3>
+ 	  	   	 <p>Lorem ipsum dolor sit amet, consectetur  adipisicing...</p>
+ 	  	   	 </div>
+ 	  	   	 </div>
+ 	  	   </div>
+ 	  	 </div>
+
+ 	  	 <div class="row">
+ 	  	   <div class="col-lg-8 offset-lg-2">
+ 	  	   	 <a href="" class="btn-dash">show more</a>
+ 	  	   </div>
+ 	  	 </div>
+
+ 	  	</div>
+ 	  </div>
+ 	</div>
+  </section>
+  <!--  Item section end  -->
+
+
+  <!--   Info section start  -->	
+  <section class="info-section">
+ 	<div class="container">
+ 	  <div class="row">
+ 	  	<div class="col-lg-12">
+ 	  	  <h1>Lorem Ipsum  Dolor</h1>
+
+ 	  	  <div class="row">
+ 	  	  	<div class="col-lg-6">
+ 	  	  	  <div class="only-text">
+ 	  	  	  	<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex quia voluptas sit aspernatur</h4>
+ 	  	  	  </div>
+ 	  	  	</div>
+ 	  	  	<div class="col-lg-6">
+ 	  	  	  <div class="only-text">
+ 	  	  	  	<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</h4>
+ 	  	  	  </div>
+ 	  	  	</div>
+ 	  	  </div>
+
+ 	  	  <div class="row">
+ 	  	  	<div class="col-lg-8 offset-lg-2">
+ 	  	  	  <a href="" class="btn-info"><span>more info</span></a>
+ 	  	  	</div>
+ 	  	  </div>
+ 	  	</div>
+ 	  </div>
+ 	</div>
+  </section>
+  <!--   Info section end   -->
+
+
+  <!--  Discount section start  -->	
+  <section class="discount-section">
+ 	<div class="container">
+ 	  <div class="row align-items-center">
+ 	  	<div class="col-lg-6">
+ 	  	 <div class="simage">
+ 	  	  <img src="image/speghetti-big-1.png" alt="image">
+ 	  	  </div>
+ 	  	</div>
+ 	  	<div class="col-lg-6">
+ 	  	  <div class="food-discount">
+ 	  	  	<h2>Discount up to 50% All Excursions</h2>
+ 	  	  	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat </p>
+ 	  	  	<a href="" class="btn-hash">read more</a>
+ 	  	  </div>
+ 	  	</div>
+ 	  </div>
+ 	</div>
+  </section>
+  <!--  Discount section end  -->
+
+
+  <!--  Discount2 section start  -->	
+  <section class="discount-section2">
+ 	<div class="container">
+ 	  <div class="row align-items-center">
+ 	  	<div class="col-lg-6">
+ 	  	  <div class="food-discount">
+ 	  	  	<h2>January’s Promo: Buy 1 Get 1 Free!</h2>
+ 	  	  	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat </p>
+ 	  	  	<a href="" class="btn-hash">read more</a>
+ 	  	  </div>
+ 	  	</div>
+ 	  	<div class="col-lg-6">
+ 	  	<div class="simage">
+ 	  	  <img src="image/speghetti-big-1.png" alt="image">
+ 	  	  </div>
+ 	  	</div>
+ 	  </div>
+ 	</div>
+  </section>
+  <!--  Discount section end  -->
+
+
+  <!--  pizza section start  -->	
+ <section class="pizza-section">
+ 	<div class="container">
+ 	  <div class="row">
+ 	  	<div class="col-lg-12">
+        <img src="image/leaf-3s.png" alt="image" class="leaf-2">
+        <img src="image/leaf-3.png" alt="image" class="leaf-3">
+ 	  	  <div class="pizza-menu">
+ 	  	  <h1>Lorem Ipsum Dolor Sit Amer</h1>
+ 	  	  <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim </h4>
+ 	  	  <div class="separation"></div>
+ 	  	  <img src="image/whole-pizza.png" alt="image" class="big-pizza">
+ 	  	 </div>
+ 	  	</div>
+ 	  </div>
+ 	</div>
+ </section>
+  <!--  pizza section end  -->
+
+
+  <!--  about section start  -->	
+  <section class="about-sections">
+ 	<div class="container">
+ 	  <div class="row">
+ 	  	<div class="col-lg-4">
+ 	  	  <div class="details">
+ 	  	  <h1>Lorem Ipsum</h1>
+ 	  	  <p>Lorem ipsum dolor sit amet, consecte sectetur adipisicing elit, tation omne  ullamco laboris nisi ut aliqolore.</p>
+ 	  	  </div>
+ 	  	</div>
+
+ 	  	<div class="col-lg-4">
+ 	  	  <div class="details">
+ 	  	  <h1>Lorem Ipsum</h1>
+ 	  	  <p>Lorem ipsum dolor sit amet, consecte sectetur adipisicing elit, tation omne  ullamco laboris nisi ut aliqolore.</p>
+ 	  	  </div>
+ 	  	</div>
+
+ 	  	<div class="col-lg-4">
+ 	  	  <div class="details">
+ 	  	  <h1>Lorem Ipsum</h1>
+ 	  	  <p>Lorem ipsum dolor sit amet, consecte sectetur adipisicing elit, tation omne  ullamco laboris nisi ut aliqolore.</p>
+ 	  	  </div>
+ 	  	</div>
+ 	  </div>
+
+ 	   <div class="row">
+ 	   	<div class="col-lg-8 offset-lg-2">
+ 	   	  <div class="describe">
+ 	   	  <img src="image/pepers-image.png" alt="image">
+ 	   	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
+ 	   	  <h3>Lorem Ipsum</h3>
+ 	   	  </div>
+ 	   	</div>
+ 	   </div>
+ 	</div>
+  </section>
+  <!--  about section end  -->
+
+
+  <!--  Form section start  -->	
+  <section class="form-section">
+ 	<div class="container">
+ 	  <div class="row">
+ 	  	<div class="col-lg-8 offset-lg-2">
+ 	  	  <img src="image/leaf-4.png" alt="image" class="leaf-4">
+ 	  	  <img src="image/leaf-5.png" alt="image" class="leaf-5">
+ 	  	  <h2>Title Here</h2>
+ 	  	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
+ 	  	  <form method="POST">
+ 	  	  	<div class="form-details">
+ 	  	  	<input type="email" name="email" placeholder="Your Email" required="required" autocomplete="off" class="input1">
+ 	  	  	<a href="" class="btn-form">subcribe</a>
+ 	  	  	</div>
+ 	  	  </form>
+ 	  	</div>
+ 	  </div>
+ 	</div>
+  </section>
+  <!--  Form section end  -->
+
+
+  <!--  footer section start  -->	
+  <footer>
+ 	<div class="container">
+ 	  <div class="row">
+ 	  	<div class="col-lg-5 col-6">
+ 	  	  <div class="about-details">
+ 	  	  	<h4>Title Here</h4>
+ 	  	  	<h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at dignissim nunc, id maximus ex. Etiam nec dignissim elit, at dignissim enim. </h5>
+ 	  	  	<ul>
+ 	  	  	  <li>
+ 	  	  	  	<a href=""><i class="fa-brands fa-instagram"></i></a>
+ 	  	  	  </li>
+ 	  	  	  <li>
+ 	  	  	  	<a href=""><i class="fa-brands fa-facebook-f"></i></a>
+ 	  	  	  </li>
+ 	  	  	  <li>
+ 	  	  	  	<a href=""><i class="fa-brands fa-twitter"></i></a>
+ 	  	  	  </li>
+ 	  	  	  <li>
+ 	  	  	  	<a href=""><i class="fa-brands fa-whatsapp"></i></a>
+ 	  	  	  </li>
+ 	  	  	</ul>
+ 	  	  </div>
+ 	  	</div>
+ 	  	<div class="col-lg-2 offset-lg-1 col-6">
+ 	  	  <div class="about-details2">
+ 	  	  	<h4>about</h4>
+ 	  	  	<span>history</span>
+ 	  	  	<span>our team</span>
+ 	  	  	<span>Brand Guidelines</span>
+ 	  	  	<span>Terms & Condition</span>
+ 	  	  	<span>Privacy Policy</span>
+ 	  	  </div>
+ 	  	</div>
+ 	  	<div class="col-lg-2 col-6">
+ 	  	   <div class="about-details2">
+ 	  	  	<h4>services</h4>
+ 	  	  	<span>how to order</span>
+ 	  	  	<span>our product</span>
+ 	  	  	<span>order status</span>
+ 	  	  	<span>promo</span>
+ 	  	  	<span>payment method</span>
+ 	  	  </div>
+ 	  	</div>
+ 	  	<div class="col-lg-2 col-6">
+ 	  	   <div class="about-details2">
+ 	  	  	<h4>others</h4>
+ 	  	  	<span>contact us</span>
+ 	  	  	<span>help</span>
+ 	  	  	<span>privacy</span>
+ 	  	  </div>
+ 	  	</div>
+ 	  </div>
+ 	</div>
+  </footer>
+  <!--  footer section end  -->
+
+   
+
+
+
+
+            <!--  Bootstrap CDN file JS  -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+
+            <!--  Jquery CDN file -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  
+            <!--  main JS Theme  -->
+ <script src="js/main.js"></script>
+
+ </body>
+</html>
